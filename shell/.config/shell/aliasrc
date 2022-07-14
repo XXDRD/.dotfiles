@@ -12,12 +12,13 @@ alias \
 	ip="ip -color=auto"
 
 # Logo-ls
-alias ls="logo-ls -D"
+alias lg="logo-ls -D"
 
 # easy ls
 alias \
-        l="ls -lh" \
+        l="lg -lh" \
         ll="ls -ah" \
+        llg="lg -ah" \
         lr="ls -R"
 
 
