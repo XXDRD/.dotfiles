@@ -18,9 +18,10 @@ alias lg="logo-ls -D"
 alias \
         l="lg -lh" \
         ll="ls -ah" \
+        lll="ls -larth" \
         llg="lg -ah" \
         lr="ls -R"
-
+      
 
 # Verbosity and settings 
 alias \
