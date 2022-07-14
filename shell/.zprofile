@@ -1,7 +1,7 @@
 #!/bin/zsh
 
 # Adds `~/.local/bin` to $PATH
- export PATH="$PATH:${$(find ~/.local/bin/* -type f -printf %p:)%%:}"
+export PATH=$HOME/.local/bin:$PATH
 
 unsetopt PROMPT_SP
 

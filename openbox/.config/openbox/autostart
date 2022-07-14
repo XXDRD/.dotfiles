@@ -11,7 +11,7 @@ xrandr -s 1920x1080 &
 sh ~/.config/openbox/polybar/launch.sh &
 
 # Set Wallpaper
-xwallpaper --zoom .walls/panther_art.jpg
+wall
 
 # Notfication daemon
 dunst &
