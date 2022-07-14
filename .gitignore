@@ -11,4 +11,5 @@ nvim/.config/nvim/lua/ui/
 nvim/.config/nvim/lua/core/
 nvim/.config/nvim/lua/plugins/
 nvim/.config/nvim/examples/
+nvim/.config/nvim/.*/
 nvim/.config/nvim/.*
