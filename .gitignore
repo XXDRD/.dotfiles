@@ -1,5 +1,4 @@
 ncmpcpp/.ncmpcpp/error.log
-walls/.walls/*.jpg
 local/.local/share/nvim/*
 local/.local/share/xorg/*
 mpd/.config/mpd/mpd.log
@@ -7,8 +6,3 @@ mpd/.config/mpd/mpdstate
 local/.local/state/*
 zsh/.config/zsh/plugins/*
 zsh/.config/zsh/.zcompdump
-nvim/.config/nvim/LICENSE
-nvim/.config/nvim/init.lua
-nvim/.config/nvim/lua/
-nvim/.config/nvim/examples/
-nvim/.config/nvim/.*
