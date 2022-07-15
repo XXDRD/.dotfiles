@@ -3,7 +3,7 @@
 `UNDER DEVELOPMENT`
 
 ## TO DO 
-- [ ] fix unable to add nvim config
+- [ ] fix nvim repo gitignore
 - [x] Fix ncmpcpp polybar widget
 - [ ] Implement proper obmenu
 - [x] Add all the keybinds
