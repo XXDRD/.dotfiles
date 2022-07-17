@@ -5,11 +5,11 @@ mpd/.config/mpd/mpdstate
 local/.local/state/*
 zsh/.config/zsh/plugins/*
 zsh/.config/zsh/.zcompdump
-nvim/.config/nvim/LICENSE
-nvim/.config/nvim/init.lua
-nvim/.config/nvim/lua/ui/
-nvim/.config/nvim/lua/core/
-nvim/.config/nvim/lua/plugins/
-nvim/.config/nvim/examples/
-nvim/.config/nvim/.*/
-nvim/.config/nvim/.*
+/* nvim/.config/nvim/LICENSE */
+/* nvim/.config/nvim/init.lua */
+/* nvim/.config/nvim/lua/ui/ */
+/* nvim/.config/nvim/lua/core/ */
+/* nvim/.config/nvim/lua/plugins/ */
+/* nvim/.config/nvim/examples/ */
+/* nvim/.config/nvim/.*/ */
+/* nvim/.config/nvim/.* */
