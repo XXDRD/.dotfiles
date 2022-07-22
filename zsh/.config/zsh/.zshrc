@@ -58,3 +58,6 @@ rehash_precmd() {
 }
 
 add-zsh-hook -Uz precmd rehash_precmd
+
+# Load zsh-plugins
+source /usr/share/zsh/plugins/fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh 2>/dev/null
