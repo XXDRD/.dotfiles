@@ -1,38 +1,39 @@
 #!/bin/sh
 
 #Programs
-alias  v="$EDITOR"
-alias  vi="vim" 
-alias  fire="$BROWSER"
+alias v="$EDITOR"
+alias vi="vim" 
+alias fire="$BROWSER"
 
-#color
-alias  grep="grep --color=auto"
-alias  diff="diff --color=auto"
-alias  ccat="highlight --out-format=ansi"
-alias  ip="ip -color=auto"
+#colo
+alias grep="grep --color=auto"
+alias diff="diff --color=auto"
+alias ccat="highlight --out-format=ansi"
+alias ip="ip -color=auto"
 
 #ls
-alias  lg="logo-ls -D"
-alias  l="lg -lh"
-alias  ll="lg -ah"
-alias  llg="lg -ah"
-alias  lr="lg -R"
-alias  lll="ls -larth"
+alias lg="logo-ls -D"
+alias l="lg -lh"
+alias ll="lg -ah"
+alias llg="lg -ah"
+alias lr="lg -R"
+alias lll="ls -larth"
 
 #git
-alias  g="git"
-alias  gs="git status" 
-alias  ga="git add"
-alias  gc="git commit -m "
-alias  gp="git push"
+alias g="git"
+alias gs="git status" 
+alias ga="git add"
+alias gc="git commit -m "
+alias gp="git push"
 
 #misc
-alias  cp="cp -iv"
-alias  mv="mv -iv"
-alias  rm="rm -vI"
-alias  bc="bc -ql"
-alias  mkdir="mkdir -pv"
-alias  yt="yt-dlp --embed-metadata -i"
-alias  yta="yt -x -f bestaudio/best"
-alias  ffmpeg="ffmpeg -hide_banner"
+alias rd="rmdir"
+alias cp="cp -iv"
+alias mv="mv -iv"
+alias rm="rm -vI"
+alias bc="bc -ql"
+alias mkdir="mkdir -pv"
+alias yt="yt-dlp --embed-metadata -i"
+alias yta="yt -x -f bestaudio/best"
+alias ffmpeg="ffmpeg -hide_banner"
 alias rel="xrdb merge $HOME/.local/share/repos/st/xresources"
