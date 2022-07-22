@@ -1,4 +1,4 @@
-# History file
+#History file
 HISTFILE=~/.cache/zsh_history
 setopt appendhistory
 
@@ -29,16 +29,8 @@ _comp_options+=(globdots)		# Include hidden files.
 [ -f "${XDG_CONFIG_HOME:-$HOME/.config}/shell/zshnameddirrc" ] && source "${XDG_CONFIG_HOME:-$HOME/.config}/shell/zshnameddirrc"
 
 # source files
-source "$ZDOTDIR/zsh-functions"
-zsh_add_file "zsh-vim-mode"
-zsh_add_file "zsh-prompt"
-
-# Plugins
-zsh_add_plugin "zsh-users/zsh-autosuggestions"
-zsh_add_plugin "zsh-users/zsh-syntax-highlighting"
-zsh_add_plugin "hlissner/zsh-autopair"
-# For more plugins: https://github.com/unixorn/awesome-zsh-plugins
-# More completions https://github.com/zsh-users/zsh-completions
+source $ZDOTDIR/zsh-prompt
+source $ZDOTDIR/zsh-vim-mode
 
 # Key-bindings
 bindkey -s '^v' 'nvim $(fzf)^M'
@@ -49,9 +41,6 @@ bindkey "^k" up-line-or-beginning-search # Up
 bindkey "^j" down-line-or-beginning-search # Down
 bindkey "^a" beginning-of-line
 bindkey "^e" end-of-line
-
-# Add PATH
-export PATH="$PATH:${$(find ~/.local/bin -type d -printf %p:)%%:}"
 
 # On demand rehash
 zshcache_time="$(date +%s%N)"
