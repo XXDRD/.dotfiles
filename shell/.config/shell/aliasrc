@@ -1,40 +1,38 @@
-# programs alias
-alias \
-        v="nvim"\
-        vi="vim"
-        fire="librewolf"
+#!/bin/sh
 
-# Colorize commands
-alias \
-	grep="grep --color=auto" \
-	diff="diff --color=auto" \
-	ccat="highlight --out-format=ansi" \
-	ip="ip -color=auto"
+#Programs
+alias  v="$EDITOR"
+alias  vi="vim" 
+alias  fire="$BROWSER"
 
-# Logo-ls
-alias lg="logo-ls -D"
+#color
+alias  grep="grep --color=auto"
+alias  diff="diff --color=auto"
+alias  ccat="highlight --out-format=ansi"
+alias  ip="ip -color=auto"
 
-# easy ls
-alias \
-        l="lg -lh" \
-        ll="ls -ah" \
-        lll="ls -larth" \
-        llg="lg -ah" \
-        lr="ls -R"
-      
+#ls
+alias  lg="logo-ls -D"
+alias  l="lg -lh"
+alias  ll="ls -ah"
+alias  lll="ls -larth"
+alias  llg="lg -ah"
+alias  lr="ls -R"
 
-# Verbosity and settings 
-alias \
-	cp="cp -iv" \
-	mv="mv -iv" \
-	rm="rm -vI" \
-	bc="bc -ql" \
-	mkdir="mkdir -pv" \
-	yt="yt-dlp --embed-metadata -i" \
-	yta="yt -x -f bestaudio/best" \
-	ffmpeg="ffmpeg -hide_banner"
+#git
+alias  g="git"
+alias  gs="git status" 
+alias  ga="git add"
+alias  gc="git commit -m "
+alias  gp="git push"
 
-
-
-# st stuff
+#misc
+alias  cp="cp -iv"
+alias  mv="mv -iv"
+alias  rm="rm -vI"
+alias  bc="bc -ql"
+alias  mkdir="mkdir -pv"
+alias  yt="yt-dlp --embed-metadata -i"
+alias  yta="yt -x -f bestaudio/best"
+alias  ffmpeg="ffmpeg -hide_banner"
 alias rel="xrdb merge $HOME/.local/share/repos/st/xresources"
