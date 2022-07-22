@@ -2,7 +2,7 @@
 dxhd &
 
 # Compositor 
-picom &
+picom -b
 
 # Full screen
 xrandr -s 1920x1080 &
