@@ -14,10 +14,10 @@ alias  ip="ip -color=auto"
 #ls
 alias  lg="logo-ls -D"
 alias  l="lg -lh"
-alias  ll="ls -ah"
-alias  lll="ls -larth"
+alias  ll="lg -ah"
 alias  llg="lg -ah"
-alias  lr="ls -R"
+alias  lr="lg -R"
+alias  lll="ls -larth"
 
 #git
 alias  g="git"
